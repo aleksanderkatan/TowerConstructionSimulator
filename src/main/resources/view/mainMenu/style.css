@@ -1,0 +1,56 @@
+.label {
+    -fx-text-fill: ghostwhite;
+    -fx-font-size: 20;
+    -fx-font-family: "Otomanopee One";
+    src: url("fonts/Otomanopee_One/OtomanopeeOne-Regular.ttf");
+}
+.label_day {
+    -fx-text-fill: black;
+    -fx-font-size: 20;
+    -fx-font-family: "Otomanopee One";
+    src: url("fonts/Otomanopee_One/OtomanopeeOne-Regular.ttf");
+}
+.button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, rgb(110,120,100) 0%, rgb(90,100,80) 100%),
+            rgb(90,100,80),
+            rgb(70,80,60),
+            radial-gradient(center 50% 50%, radius 100%, rgb(206,206,181), rgb(166,166,141));
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-font-family: "Otomanopee One";
+    src: url("fonts/Otomanopee_One/OtomanopeeOne-Regular.ttf");
+}
+.button:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, rgb(110,120,100) 0%, rgb(90,100,80) 100%),
+            rgb(90,100,80),
+            rgb(70,80,60),
+            radial-gradient(center 50% 50%, radius 100%, rgb(236,236,211), rgb(166,166,141));
+}
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+.toggle-button {
+    -fx-font-family: "Otomanopee One";
+    src: url("fonts/Otomanopee_One/OtomanopeeOne-Regular.ttf");
+    -fx-background-color: rgb(110,120,100);
+}
+.toggle-button:selected {
+    -fx-background-color: rgb(236,236,211);
+    -fx-border-width: 3;
+    -fx-border-color: YELLOWGREEN;
+    -fx-background-insets: 0;
+}
+
+.outline.label .text {
+    -fx-fill: black;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+}
