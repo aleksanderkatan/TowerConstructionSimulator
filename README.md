@@ -8,3 +8,6 @@
 Hop into the world of hostile geometrical shapes and try your best to defend your territory. Craft your perfect defense from a combination of towers and projectiles, then destroy every enemy that gets in your way.
 
 Inspired by classic tower defense games like  [Bloons TD](https://store.steampowered.com/app/960090/Bloons_TD_6/?)  or  [Infinitode](https://store.steampowered.com/app/937310/Infinitode_2__Infinite_Tower_Defense/).
+
+## Gameplay preview:  
+![Gameplay](game_preview.bmp)
